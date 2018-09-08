@@ -1,0 +1,25 @@
+{
+  "name": "git_test_1",
+  "version": "1.0.0",
+  "description": "\"this is a test directory to learn Git and Node\"",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "stop":"node server.stop.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimSirman/git_test_1.git"
+  },
+  "author": "James Sirman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimSirman/git_test_1/issues"
+  },
+  "homepage": "https://github.com/JimSirman/git_test_1#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
